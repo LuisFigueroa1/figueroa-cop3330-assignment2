@@ -6,21 +6,25 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
 
-  //  @Test{}
-   /* void passwordValidator() {
-        App app = new App();
-
-        //int expected = 1;
-
-        assertEquals(1, App.passwordValidator("12345678"));
-        assertEquals(2, App.passwordValidator("abcads"));
-        assertEquals(3, App.passwordValidator("abcd^*$%"));
-        assertEquals(4, App.passwordValidator("abc123%^"));
-
-*/
-
-
     @Test
-    void main() {
+    void passwordValidator() {
+/*
+        String password;
+        password = "1234";
+        int passW = App.passwordValidator(password);
+        assertEquals (1, passW);
+        password = "qwerty";
+        passW = App.passwordValidator(password);
+        assertEquals (2, passW);
+        password = "qwer1234";
+        passW = App.passwordValidator(password);
+        assertEquals (3, passW);
+        password = "qwer1234#$";
+        passW = App.passwordValidator(password);
+        assertEquals (4, passW);
+    } */}
+
+        @Test
+        void main() {
+        }
     }
-}

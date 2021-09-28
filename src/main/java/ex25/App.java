@@ -15,13 +15,11 @@ public class App {
         int length  = userPrompt.length();
 
         // boolean to check for the cases
-        boolean lowCase = false, upCase = false,
-                nums = false, special = false;
+        boolean lowCase = false, upCase = false, nums = false, special = false;
 
         //list of special characters that are included
         Set<Character> set = new HashSet<Character>(
-                Arrays.asList('!', '@', '#', '$', '%', '^', '&',
-                        '*', '(', ')', '-', '+'));
+                Arrays.asList('%', '^' , '*' , '(' , ')' , '!' , '@' , '&' , '#' , '$' , '-' , '+'));
 
         for (char i : userPrompt.toCharArray()) //for loop for find out what kind of password is it
         {
